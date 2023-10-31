@@ -1,6 +1,6 @@
 import { createReadStream } from "fs";
-
 import TelegramBot from "node-telegram-bot-api";
+
 import type { Configuration } from "./configuration";
 import type Logger from "./logger";
 

@@ -1,13 +1,12 @@
-import puppeteer from "puppeteer-core";
 import process from "process";
-
-import Storage from "./services/storage";
-import Configuration from "./services/configuration";
-import TelegramService from "./services/telegram";
-import Logger from "./services/logger";
+import puppeteer from "puppeteer-core";
 
 import BoletoPO from "./BoletoPO";
 import downloadFile from "./downloadFile";
+import Configuration from "./services/configuration";
+import Logger from "./services/logger";
+import Storage from "./services/storage";
+import TelegramService from "./services/telegram";
 
 const logger = new Logger();
 

@@ -1,6 +1,7 @@
 import type { Page } from "puppeteer-core";
-import type Logger from "./services/logger";
+
 import type { Configuration } from "./services/configuration";
+import type Logger from "./services/logger";
 
 class BoletoPO {
   private page: Page;

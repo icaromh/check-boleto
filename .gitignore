@@ -1,0 +1,11 @@
+dist/
+node_modules/
+log.txt
+.env
+downloads/*.pdf
+yarn-error.log
+.DS_Store
+
+# Ignore artifacts:
+build
+coverage

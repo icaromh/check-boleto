@@ -19,6 +19,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.1",
     "@types/node-telegram-bot-api": "^0.61.11",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",

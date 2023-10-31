@@ -7,6 +7,8 @@ This project automate the process of checking boletos status in a Brazilian webs
 3. If there is a new boleto, get the payment details
 4. Send the PDF file and amount to pay via Telegram message;
 
+![Example](./docs/example.png)
+
 ## Running the script
 
 ```bash

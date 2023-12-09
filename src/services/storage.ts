@@ -9,6 +9,6 @@ export default class Storage {
   }
 
   static async saveId(id: string): Promise<void> {
-    fs.writeFile(Storage.filePath, id);
+    return fs.writeFile(Storage.filePath, id);
   }
 }
